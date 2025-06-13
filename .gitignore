@@ -1,0 +1,63 @@
+# =======================================================
+# Entornos Virtuales
+# Ignora la carpeta del entorno virtual, sea cual sea su nombre.
+# Nunca subas esto, ya que es específico de tu máquina.
+# =======================================================
+venv/
+.venv/
+.deepwiki-arpesod/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =======================================================
+# Archivos de Caché y Compilados de Python
+# Estos archivos se generan automáticamente y no son necesarios.
+# =======================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =======================================================
+# Archivos de Dependencias y Secretos
+# ¡MUY IMPORTANTE! Nunca subas tu archivo .env,
+# contiene tu clave de API.
+# =======================================================
+.env
+.env.*
+secrets.toml
+
+# =======================================================
+# Carpetas y Archivos Generados por la Aplicación
+# Estas carpetas son creadas por tu aplicación y no deben
+# formar parte del código fuente.
+# =======================================================
+# Carpeta donde se clonan los repositorios para analizar
+repo_temporal/
+
+# Carpeta donde se guardan los análisis .md
+knowledge_base/
+
+# =======================================================
+# Archivos de Configuración de IDEs y Editores
+# Ignora las carpetas de configuración de editores populares.
+# =================================n======================
+.vscode/
+.idea/
+.project
+.pydevproject
+.settings/
+
+# =======================================================
+# Archivos de Sistema Operativo
+# Ignora archivos basura generados por macOS, Windows, etc.
+# =======================================================
+.DS_Store
+Thumbs.db
+
+# =======================================================
+# Archivos de Bases de Datos Locales (si usaras una)
+# =======================================================
+*.sqlite3
+*.db
