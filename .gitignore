@@ -36,9 +36,6 @@ secrets.toml
 # Carpeta donde se clonan los repositorios para analizar
 repo_temporal/
 
-# Carpeta donde se guardan los análisis .md
-knowledge_base/
-
 # =======================================================
 # Archivos de Configuración de IDEs y Editores
 # Ignora las carpetas de configuración de editores populares.
